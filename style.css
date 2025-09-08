@@ -1,0 +1,195 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  background: #f9f9f9;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: #222;
+
+  color: white;
+
+  padding: 1rem 2rem;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.logo {
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 1rem;
+
+}
+
+.nav-links a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+.hero {
+
+  text-align: center;
+
+  padding: 3rem 1rem;
+
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+
+  color: white;
+
+}
+
+.hero button {
+
+  background: white;
+
+  color: #2575fc;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  margin-top: 15px;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+.section {
+
+  max-width: 900px;
+
+  margin: 2rem auto;
+
+  padding: 1rem;
+
+}
+
+.skills-list {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+}
+
+.skills-list li {
+
+  background: #2575fc;
+
+  color: white;
+
+  padding: 5px 15px;
+
+  border-radius: 5px;
+
+}
+
+.project-card {
+
+  background: white;
+
+  padding: 1rem;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  margin-top: 1rem;
+
+}
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+input, textarea {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+button {
+
+  background: #2575fc;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 1rem;
+
+  background: #222;
+
+  color: white;
+
+  margin-top: 2rem;
+
+}
